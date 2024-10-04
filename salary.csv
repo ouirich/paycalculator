@@ -1,5 +1,5 @@
 Company,Position,Pay range,Notes,Date
-AC,CG Senior Designer,"72,800 - 83.200",TV,july 2024
+AC,CG Senior Designer,"72,800 - 83,200",TV,july 2024
 AC,CG Designer,"49,400 - 72,800",TV,july 2024
 AC,CG Modeling Lead,"88,400 - 98,800",TV,november 2023
 AC,CG Senior Modeling Artist,"75,400 - 83,200",TV,september 2024
@@ -101,7 +101,7 @@ IE,Compositor - Senior - Short Term ,"111,800 - 123,500",Feature,september 2024
 INLGT,Senior Previs Animator,"108,400 - 138,800",Feature,july 2024
 INLGT,Previs Animator,"84,100 - 107,700",Feature,july 2024
 INLGT,Creature Supervisor,"153,600 - 196,700",Feature,august 2024
-INLGT,Effects Supervisor,"153,600 - 187,3000",Feature,september 2024
+INLGT,Effects Supervisor,"153,600 - 187,300",Feature,september 2024
 INLGT,Lighting Supervisor,"137,300 - 175,800",Feature,july 2024
 INLGT,Lead Lighting Technical Director,"122,400 - 156,800",Feature,july 2024
 INLGT,Generalist (Environments) Supervisor,"153,600 - 196,700 ",Feature,july 2024
@@ -110,6 +110,7 @@ INLGT,Generalist (Environments),"84,100 - 107,700",Feature,july 2024
 INLGT,Junior Environment Artost,"57,800 - 74,000",Feature,september 2024
 INLGT,Senior Pipeline Technical Director,"122,400 - 156,80",Feature,september 2024
 KCK,Consultant/Contractor,"83,200 - 124,800",Feature,september 2024
+LP,Linux Systems Administrator (Mid to Senior Level),"110,000 - 150,000",Feature,september 2024
 LP,Asset Artists (Mid to Senior),"41,600 - 124,800",Feature,august 2024
 LP,Lighting Artist (Mid to Senior),"41,600 - 124,800",Feature,august 2024
 LP,Compositor (Mid to Senior),"41,600 - 135,200",Feature,august 2024
@@ -129,6 +130,10 @@ MF,Senior Surfacing Artist (Unreal) - 3D,"65,000 - 85,000",TV,july 2024
 MF,Animation Director - 3D,"110,000 - 120,000",TV,september 2024
 MF,FX Supervisor - 3D,"100,000 - 124,800",TV,august 2024
 MF,Rigging Pipeline Supervisor,"100,000 - 120,000",TV,march 2024
+SNFX,Editors (Trailer),"50,000 - 80,000",Feature,october 2024
+SNFX,Archival Video Editor,"50,000 - 80,000",Feature,october 2024
+SNFX,Backend Services Engineer,"120,000 - 180,000",Feature,october 2024
+SNFX,VFX Producer,"105,000 - 195,000",Feature,october 2024
 SIW,Experience Modeler,"85,670 - 123,000",Feature,november 2023
 SIW,Modeler (mid),"66,600 - 91,500",Feature,november 2023
 SIW,Modeler (associate),"55,000 - 75,600",Feature,november 2023
@@ -151,7 +156,7 @@ SIW,CFX Artist (mid),"78,000 - 111,905",Feature,november 2023
 SIW,CFX Artist (associate),"55,000 - 75,600",Feature,november 2023
 SIW,Experienced FX Artist,"94,310 - 135,410",Feature,november 2023
 SIW,FX Artist (mid),"78,000 - 111,905",Feature,november 2023
-SIW,FX Artist (associate),"60,507 - 83159",Feature,november 2023
+SIW,FX Artist (associate),"60,507 - 83,159",Feature,november 2023
 SIW,FX Look Department Specialist,"129,000 - 185,250",Feature,may 2024
 SIW,Experienced Lighter,"94,310 - 135,410",Feature,november 2023
 SIW,Lighter (mid),"78,000 - 111,905",Feature,november 2023
@@ -160,7 +165,7 @@ SIW,Environment Lead,"104,707 - 135,096",Feature,september 2024
 SIW,Senior Environment Artist,"94,310 - 135,410",Feature,september 2024
 SIW,Experience Compositor,"94,310 - 135,410",Feature,july 2024
 SIW,Compositor (mid),"78,000 - 111,905",Feature,july 2024
-SIW,Compositor (associate),"60,507 - 83159",Feature,july 2024
+SIW,Compositor (associate),"60,507 - 83,159",Feature,july 2024
 SIW,Nuke Tools Specialist,"129,000 - 185,250",Feature,may 2024
 SIW,Environment Workflow TD,"104,707 - 134,992",Feature,september 2024
 SIW,Associaste Technical Director,"54,995 - 75,5074",Feature,september 2024
