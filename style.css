@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 1.02em;
+    color: #d6d6d6;
+}
+
+h1{
+    font-size:2em;
+    margin-top:1em;
+}
+
+h2{
+    font-size:1.3em;
+}
+  
+hr{
+    height:2px;
+    border-width:0;
+    color:gray;
+    background-color:gray
+}
+body {
+    margin: 0;
+    background: #202020;
+    padding: 1%
+}
+
+input, select, option{
+    color: #000;
+    margin-bottom: 10px;
+}
+
+
+.center {
+    margin: auto;
+    padding: 10px;
+}
+ 
+table{
+    border-collapse: collapse;
+}
+
+
+#salary th {
+    background-color: #000;
+    border: 1px solid #4e4e4e;
+    padding: 15px;
+}
+
+#salary td {
+    border: 1px solid #4e4e4e;
+    padding: 10px;
+}
+
+#searchInput {
+    width: 50%;
+    padding: 10px
+}

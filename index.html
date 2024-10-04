@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>anim_vfx_salary</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script defer src="static/csv.min.js"></script>
+	
+    <div id="page" class="center">
+		<h1>Pay Calculator</h1>
+		<form id="multiplyForm">
+			<label for="multiplier">Choose frequency</label>
+			<select id="multiplier">
+				<option value="2080">Hourly</option>
+				<option value="52">Weekly</option>
+				<option value="12">Monthly</option>
+				<option value="1">Annually</option>
+			</select>
+			
+			<label for="value">Salary:</label>
+			<input type="number" step="0.01" id="value" required>
+			<br/>
+			<label for="vacaypercent">Vacation pay (in %)</label>
+			<input type="number" step="0.01" id="vacaypercent" placeholder="4">
+			or 
+			<label for="vacayweeks">Vacation weeks</label>
+			<input type="number" step="1" id="vacayweeks" placeholder="2">
+			<br/>
+			<label for="rrsp">RRSP matching (in %)</label>
+			<input type="number" step="0.01" id="rrsp" placeholder="5">
+			<br/>
+			<label for="health">Health Benefits Premium or HSA</label>
+			<input type="number" step="1" id="health" placeholder="">
+		</form>
+		
+		<h2 id="result">Compensation: 0</h2>
+		
+		<hr>
+		<h1>Salary Comparison</h1>
+		<form id="multiplyForm">
+			<label for="current">Current</label>
+			<input type="number" step="0.01" id="current" required>
+			<br/>
+				
+			<label for="offered">Offer</label>
+			<input type="number" step="0.01" id="offered" required>
+		</form>
+		
+		<h2 id="diff">Difference: 0</h2>
+		
+		<hr>
+		<h1>Reference</h1>
+		<p>As of November 1, 2003, all jobs postings by provincially regulated employers in British Columbia must contain pay information</p>
+		
+		<input type="text" id="searchInput" onkeyup="filter()" placeholder="Search for a position">
+		
+		<table id="salary"></table>
+	</div>
+
+	
+	<script src="script.js"></script>
+</body>
+</html>
