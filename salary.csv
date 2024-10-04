@@ -1,12 +1,4 @@
 Company,Position,Pay range,Notes,Date
-AL,Modeling Supervisor,"140,000 - 190,000",Feature,april 2024
-AL,Modeling Artist - Character,"70,000 - 130,000",Feature,march 2024
-AL,Modelig Artist - Environment,"70,000 - 130,000",Feature,march 2024
-AL,Lookdev/Surfacing Artist,"70,000 - 130,000",Feature,march 2024
-AL,Houdini Character FX Artist,"100,000 - 145,000",Feature,may 2024
-AL,Rigging Supervisor,"140,000 - 190,000",Feature,april 2024
-AL,Rigging Artist,"70,000 - 130,000",Feature,april 2024
-AL,Imaging TD,"69,992 - 86,008",Feature,july 2024
 AC,CG Senior Designer,"72,800 - 83.200",TV,july 2024
 AC,CG Designer,"49,400 - 72,800",TV,july 2024
 AC,CG Modeling Lead,"88,400 - 98,800",TV,november 2023
@@ -39,6 +31,14 @@ AC,CG Lighting/Compositing Artist,"52,000 - 75,400",TV,september 2024
 AC,CG Lighting/Compositing Artist,"46,800 - 57,200",TV,february 2024
 AC,Senior Pipeline Developer,"93,600 - 109,200",TV,april 2024
 AC,CG Asset TD,"78,000 - 88,400",TV,june 2024
+AL,Modeling Supervisor,"140,000 - 190,000",Feature,april 2024
+AL,Modeling Artist - Character,"70,000 - 130,000",Feature,march 2024
+AL,Modelig Artist - Environment,"70,000 - 130,000",Feature,march 2024
+AL,Lookdev/Surfacing Artist,"70,000 - 130,000",Feature,march 2024
+AL,Houdini Character FX Artist,"100,000 - 145,000",Feature,may 2024
+AL,Rigging Supervisor,"140,000 - 190,000",Feature,april 2024
+AL,Rigging Artist,"70,000 - 130,000",Feature,april 2024
+AL,Imaging TD,"69,992 - 86,008",Feature,july 2024
 BDL,Producer Senior,"135,200 - 166,400",Feature,november 2023
 BDL,Production Manager,"88,400 - 114,400",Feature,november 2023
 BDL,Associate Production Manager,"83,200 - 98,8000",Feature,april 2024
@@ -96,6 +96,8 @@ ICS,Lead Lighting / Compositing Artist (On-Site),"80,000 - 110,000",TV,january 2
 ICS,Lighter/Compositor (On-Site),"45,000 - 110,000",TV,november 2023
 ICS,Houdini Technical Director (TD),"70,000 - 85,000",TV,august 2024
 ICS,Junior Editor (Full-time Onsite),"55,0000",TV,october 2024
+IE,VFX Production Manager ,"91,000 - 106,000",Feature,july 2024
+IE,Compositor - Senior - Short Term ,"111,800 - 123,500",Feature,september 2024
 INLGT,Senior Previs Animator,"108,400 - 138,800",Feature,july 2024
 INLGT,Previs Animator,"84,100 - 107,700",Feature,july 2024
 INLGT,Creature Supervisor,"153,600 - 196,700",Feature,august 2024
@@ -107,8 +109,6 @@ INLGT,Senior Generalist (Environments),"108,400 - 138,800",Feature,july 2024
 INLGT,Generalist (Environments),"84,100 - 107,700",Feature,july 2024
 INLGT,Junior Environment Artost,"57,800 - 74,000",Feature,september 2024
 INLGT,Senior Pipeline Technical Director,"122,400 - 156,80",Feature,september 2024
-IE,VFX Production Manager ,"91,000 - 106,000",Feature,july 2024
-IE,Compositor - Senior - Short Term ,"111,800 - 123,500",Feature,september 2024
 KCK,Consultant/Contractor,"83,200 - 124,800",Feature,september 2024
 LP,Asset Artists (Mid to Senior),"41,600 - 124,800",Feature,august 2024
 LP,Lighting Artist (Mid to Senior),"41,600 - 124,800",Feature,august 2024
