@@ -68,7 +68,7 @@ table{
 @media only screen and (min-width: 815px) {
     /* For desktop: */
     input, select {
-       max-width: 15%;
+        max-width: 15%;
         display: inline;
     }
     #searchInput {

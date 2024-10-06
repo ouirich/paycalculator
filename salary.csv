@@ -1,4 +1,6 @@
 Company,Position,Pay range,Notes,Date
+,"Updated on October 6, 2024",,,
+AC,2D Designer BG/Environment - Short-Term,"52,000 - 67,600",TV,october 2024
 AC,CG Senior Designer,"72,800 - 83,200",TV,july 2024
 AC,CG Designer,"49,400 - 72,800",TV,july 2024
 AC,CG Modeling Lead,"88,400 - 98,800",TV,november 2023
@@ -63,9 +65,13 @@ BDL,Rough Layout Artist Senior,"85,800 - 104,000",Feature,march 2024
 BDL,Rough Layout Artist (Intermediate),"70,200 - 85,800",Feature,october 2024
 BDL,Rough Layout Artist ,"70,200 - 85,800",Feature,march 2024
 BDL,Lead Animator,"114,400 - 130,000",Feature,march 2024
+BDL,Animator,"67,600 - 83,200",TV,october 2024
 BDL,CFX Houdini Lead,"119,600 - 135,200",Feature,april 2024
 BDL,Grooming Artist,"72,800 - 93,600",Feature,january 2024
-BDL,Artiste en éclairage / Lighting Artist,"72,800 - 88,400",TV,october 2024
+BDL,FX Lead (QC),"104,000 - 130,000",TV,october 2024
+BDL,3D FX Artist (QC),"72,800 - 88,400",TV,octobre 2024
+BDL,Lighting Artist (QC),"72,800 - 88,400",TV,october 2024
+BDL,Render and Compositing Supervisor (QC),"104,000 - 119,600",TV,october 2024
 BDL,Animation TD,"72,800 - 91,000",Feature,january 2024
 BDL,Asset TD,"83,200 - 124,800",Feature,january 2024
 BDL,CFX Pipeline TD,"83,200 - 124,800",Feature,january 2024
@@ -100,14 +106,19 @@ IE,VFX Production Manager ,"91,000 - 106,000",Feature,july 2024
 IE,Compositor - Senior - Short Term ,"111,800 - 123,500",Feature,september 2024
 INLGT,Senior Previs Animator,"108,400 - 138,800",Feature,july 2024
 INLGT,Previs Animator,"84,100 - 107,700",Feature,july 2024
+INLGT,Senior Animator,"108,400 - 138,800",Feature,september 2024
+INLGT,Animator,"84,100 - 107,700",Feature,september 2024
 INLGT,Creature Supervisor,"153,600 - 196,700",Feature,august 2024
-INLGT,Effects Supervisor,"153,600 - 187,300",Feature,september 2024
+INLGT,FX Supervisor,"153,600 - 187,300",Feature,september 2024
+INLGT,Senior FX Technical Director,"122,400 - 149,300",Feature,september 2024
+INLGT,FX Technical Director,"96,800 - 118,000",Feature,september 2025
 INLGT,Lighting Supervisor,"137,300 - 175,800",Feature,july 2024
 INLGT,Lead Lighting Technical Director,"122,400 - 156,800",Feature,july 2024
 INLGT,Generalist (Environments) Supervisor,"153,600 - 196,700 ",Feature,july 2024
 INLGT,Senior Generalist (Environments),"108,400 - 138,800",Feature,july 2024
 INLGT,Generalist (Environments),"84,100 - 107,700",Feature,july 2024
 INLGT,Junior Environment Artost,"57,800 - 74,000",Feature,september 2024
+INLGT,Digital Paint Artist,"64,70 - 82,800",Feature,september 2024
 INLGT,Senior Pipeline Technical Director,"122,400 - 156,80",Feature,september 2024
 KCK,Consultant/Contractor,"83,200 - 124,800",Feature,september 2024
 LP,Linux Systems Administrator (Mid to Senior Level),"110,000 - 150,000",Feature,september 2024
@@ -130,51 +141,55 @@ MF,Senior Surfacing Artist (Unreal) - 3D,"65,000 - 85,000",TV,july 2024
 MF,Animation Director - 3D,"110,000 - 120,000",TV,september 2024
 MF,FX Supervisor - 3D,"100,000 - 124,800",TV,august 2024
 MF,Rigging Pipeline Supervisor,"100,000 - 120,000",TV,march 2024
+PXD,Senior Rigger,"105,000 - 125,000",TV,october 2024
+PXD,Senior Digital Matte Painter (Contract),"110,000 - 125,000",TV,october 2024
 SNFX,Editors (Trailer),"50,000 - 80,000",Feature,october 2024
 SNFX,Archival Video Editor,"50,000 - 80,000",Feature,october 2024
 SNFX,Backend Services Engineer,"120,000 - 180,000",Feature,october 2024
 SNFX,VFX Producer,"105,000 - 195,000",Feature,october 2024
-SIW,Experience Modeler,"85,670 - 123,000",Feature,november 2023
-SIW,Modeler (mid),"66,600 - 91,500",Feature,november 2023
-SIW,Modeler (associate),"55,000 - 75,600",Feature,november 2023
-SIW,Experienced Texture Artist,"94,310 - 135,410",Feature,november 2023
-SIW,Texture Artist (mid),"78,000 - 111,905",Feature,november 2023
-SIW,Texture Artist (associate),"55,000 - 75,600",Feature,november 2023
-SIW,Look development Artist (mid),"85,696 - 116812",Feature,july 2024
-SIW,Look development artist (mid),"60,507 - 83,158",Feature,july 2024
-SIW,Experienced Rigger,"94,310 - 135,410",Feature,november 2023
-SIW,Rigger (mid),"78,000 - 111,905",Feature,november 2023
-SIW,Rigger (associate),"55,000 - 75,600",Feature,november 2023
-SIW,Experienced Layout Artist,"85,670 - 123,000",Feature,november 2023
-SIW,Layout Artist (mid),"66,600 - 91,500",Feature,november 2023
-SIW,Layout Artist (associate),55.000 - 75.600,Feature,november 2023
-SIW,Experienced Animator,"94,310 - 121,700",Feature,november 2023
-SIW,Animator (mid),"66,600 - 91,500",Feature,november 2023
-SIW,Animator (associate),55.000 - 75.600,Feature,november 2023
-SIW,Experienced CFX Artist,"94,310 - 135,410",Feature,november 2023
-SIW,CFX Artist (mid),"78,000 - 111,905",Feature,november 2023
-SIW,CFX Artist (associate),"55,000 - 75,600",Feature,november 2023
-SIW,Experienced FX Artist,"94,310 - 135,410",Feature,november 2023
-SIW,FX Artist (mid),"78,000 - 111,905",Feature,november 2023
-SIW,FX Artist (associate),"60,507 - 83,159",Feature,november 2023
-SIW,FX Look Department Specialist,"129,000 - 185,250",Feature,may 2024
-SIW,Experienced Lighter,"94,310 - 135,410",Feature,november 2023
-SIW,Lighter (mid),"78,000 - 111,905",Feature,november 2023
-SIW,Lighter (associate),"55,000 - 75,600",Feature,november 2023
-SIW,Environment Lead,"104,707 - 135,096",Feature,september 2024
-SIW,Senior Environment Artist,"94,310 - 135,410",Feature,september 2024
-SIW,Experience Compositor,"94,310 - 135,410",Feature,july 2024
-SIW,Compositor (mid),"78,000 - 111,905",Feature,july 2024
-SIW,Compositor (associate),"60,507 - 83,159",Feature,july 2024
-SIW,Nuke Tools Specialist,"129,000 - 185,250",Feature,may 2024
-SIW,Environment Workflow TD,"104,707 - 134,992",Feature,september 2024
-SIW,Associaste Technical Director,"54,995 - 75,5074",Feature,september 2024
+SOIW,Experience Modeler,"85,670 - 123,000",Feature,november 2023
+SOIW,Modeler (mid),"66,600 - 91,500",Feature,november 2023
+SOIW,Modeler (associate),"55,000 - 75,600",Feature,november 2023
+SOIW,Experienced Texture Artist,"94,310 - 135,410",Feature,november 2023
+SOIW,Texture Artist (mid),"78,000 - 111,905",Feature,november 2023
+SOIW,Texture Artist (associate),"55,000 - 75,600",Feature,november 2023
+SOIW,Look development Artist (mid),"85,696 - 116812",Feature,july 2024
+SOIW,Look development artist (associate),"60,507 - 83,158",Feature,july 2024
+SOIW,Experienced Rigger,"94,310 - 135,410",Feature,november 2023
+SOIW,Rigger (mid),"78,000 - 111,905",Feature,november 2023
+SOIW,Rigger (associate),"55,000 - 75,600",Feature,november 2023
+SOIW,Experienced Layout Artist,"85,670 - 123,000",Feature,november 2023
+SOIW,Layout Artist (mid),"66,600 - 91,500",Feature,november 2023
+SOIW,Layout Artist (associate),55.000 - 75.600,Feature,november 2023
+SOIW,Experienced Animator,"94,310 - 121,700",Feature,november 2023
+SOIW,Animator (mid),"66,600 - 91,500",Feature,november 2023
+SOIW,Animator (associate),55.000 - 75.600,Feature,november 2023
+SOIW,Experienced CFX Artist,"94,310 - 135,410",Feature,november 2023
+SOIW,CFX Artist (mid),"78,000 - 111,905",Feature,november 2023
+SOIW,CFX Artist (associate),"55,000 - 75,600",Feature,november 2023
+SOIW,Experienced FX Artist,"94,310 - 135,410",Feature,november 2023
+SOIW,FX Artist (mid),"78,000 - 111,905",Feature,november 2023
+SOIW,FX Artist (associate),"60,507 - 83,159",Feature,november 2023
+SOIW,FX Look Department Specialist,"129,000 - 185,250",Feature,may 2024
+SOIW,Experienced Lighter,"94,310 - 135,410",Feature,november 2023
+SOIW,Lighter (mid),"78,000 - 111,905",Feature,november 2023
+SOIW,Lighter (associate),"55,000 - 75,600",Feature,november 2023
+SOIW,Environment Lead,"104,707 - 135,096",Feature,september 2024
+SOIW,Senior Environment Artist,"94,310 - 135,410",Feature,september 2024
+SOIW,Experienced Compositor,"94,310 - 135,410",Feature,july 2024
+SOIW,Compositor (mid),"78,000 - 111,905",Feature,july 2024
+SOIW,Compositor (associate),"60,507 - 83,159",Feature,july 2024
+SOIW,Nuke Tools Specialist,"129,000 - 185,250",Feature,may 2024
+SOIW,Environment Workflow TD,"104,707 - 134,992",Feature,september 2024
+SOIW,Associaste Technical Director,"54,995 - 75,5074",Feature,september 2024
+TIM,2D Adobe Animate/Flash Animator,"49,400 - 67,600",TV,october 2024
+TIM,Hand-drawn Harmony Animator - Action Adventure Series ,"49,400 - 67,600",TV,october 2024
 WB,"Series Director, CG ","112,320 - 143,000",TV,august 2024
 WB,"Director, Technology (Software) ","170,000 - 185,000",TV,june 2024
 WB,Associate Producer CG,"88,400 - 109,200",TV,september 2024
 WB,Production Supervisor,"67,600 - 89,440",TV,december 2023
-WB,"Production Supervisor, CG Feature","68,640 - 89,700",TV,march 2024
-WB,Character Designer (CG) - Feature ,"78,000 - 127,400",TV,august 2024
+WB,"Production Supervisor, CG Feature","68,640 - 89,700",Feature,march 2024
+WB,Character Designer (CG) - Feature ,"78,000 - 127,400",Feature,august 2024
 WB,"Senior Designer, CG","52,000 - 91,000",TV,september 2024
 WB,"Intermediate Designer, CG","52,000 - 91,000",TV,september 2024
 WB,Senior Rigging TD,"78,000 - 109,200",TV,april 2024
@@ -223,13 +238,13 @@ ZS,VFX Layout Artist,"72,800 - 93,600",Feature,june 2024
 ZS,Lead Animator,"104,000 - 135,200",Feature,june 2024
 ZS,Senior Animator,"104,000 - 135,200",Feature,june 2024
 ZS,Animator,"72,800 - 93,600",Feature,june 2024
-ZS,Senior Character Effects Artist,"104,000 - 135,200",Feature,june 2024
-ZS,Character Effects Artis,"72,800 - 93,600",Feature,june 2024
+ZS,Senior CFX Artist,"104,000 - 135,200",Feature,june 2024
+ZS,CFX Artis,"72,800 - 93,600",Feature,june 2024
 ZS,Senior Groom Artist,"104,000 - 135,200",Feature,august 2024
 ZS,Lead Houdini Crowd Artist,"114,400 - 135,200",Feature,june 2024
 ZS,Senior Houdini Crowd Artist,"104,000 - 135,200",Feature,june 2024
-ZS,Senior Effects Artist,"104,000 - 135,200",Feature,june 2024
-ZS,Effects Artist,"72,800 - 93,600",Feature,june 2024
+ZS,Senior FX Artist,"104,000 - 135,200",Feature,june 2024
+ZS,FX Artist,"72,800 - 93,600",Feature,june 2024
 ZS,Senior Lighting Artist,"104,000 - 135,200",Feature,june 2024
 ZS,Senior Rotoscope/Paint Artist,"72,800 - 93,600",Feature,june 2024
 ZS,Rotoscope/Paint Artist,"72,800 - 93,600",Feature,june 2024

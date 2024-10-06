@@ -1,5 +1,4 @@
 function calculateTotal(){
-	// Get the input values
 	const value = Number(document.getElementById('value').value);
 	const multiplier = Number(document.getElementById('multiplier').value);
 	const vacaypercent = Number(document.getElementById('vacaypercent').value) || 0; // Default to 0 if empty
@@ -7,15 +6,12 @@ function calculateTotal(){
 	const rrsp = Number(document.getElementById('rrsp').value) || 0;
 	const health = Number(document.getElementById('health').value) || 0;
 	
-	// Calculate the result
 	const total = (value * multiplier) + ((value * multiplier)/100*vacaypercent) + ((value * multiplier)/52*vacayweeks) + ((value * multiplier)/100*rrsp) + health;
 	
-	// Display the result
 	document.getElementById('result').innerText = `Compensation: ${total}`;
 }
 
 function calculateDiffPercent(){
-	// Get the input values
 	const current = Number(document.getElementById('current').value);
 	const offered = Number(document.getElementById('offered').value);
 	
@@ -39,7 +35,6 @@ document.getElementById("offered").addEventListener("input", calculateDiffPercen
 ///////////////////////////////////////////////////
 //csv to table
 ///////////////////////////////////////////////////
-
 let table = document.getElementById("salary");
 fetch("salary.csv")
 .then(res => res.text())
@@ -64,6 +59,9 @@ fetch("salary.csv")
 });
 
 
+///////////////////////////////////////////////////
+//filter and display
+///////////////////////////////////////////////////
 function filter() {
 	var input, filter, table, tr, td, i, txtValue;
 	input = document.getElementById("searchInput");
