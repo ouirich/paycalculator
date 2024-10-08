@@ -1,3 +1,7 @@
+///////////////////////////////////////////////////
+//forms
+///////////////////////////////////////////////////
+
 function calculateTotal(){
 	const value = Number(document.getElementById('value').value);
 	const multiplier = Number(document.getElementById('multiplier').value);
@@ -6,18 +10,45 @@ function calculateTotal(){
 	const rrsp = Number(document.getElementById('rrsp').value) || 0;
 	const health = Number(document.getElementById('health').value) || 0;
 	
-	const total = (value * multiplier) + ((value * multiplier)/100*vacaypercent) + ((value * multiplier)/52*vacayweeks) + ((value * multiplier)/100*rrsp) + health;
+	const total = ((value * multiplier) + (value * multiplier/100*vacaypercent) + (value * multiplier/52*vacayweeks) + (value * multiplier/100*rrsp) + health).toFixed(2);
 	
 	document.getElementById('result').innerText = `Compensation: ${total}`;
+	if (multiplier == 2080){
+		let weekly = (value * 40).toFixed(2);
+		let monthly = (weekly * 4.333).toFixed(2);
+		let annually = (weekly * 52).toFixed(2);
+		document.getElementById('break').innerText = `Weekly: ${weekly} / Monthly: ${monthly} / Annually: ${annually}`;
+	}
+	if (multiplier == 52){
+		let hourly = (value / 40).toFixed(2);
+		let monthly = (value * 4.333).toFixed(2);
+		let annually = (value * 52).toFixed(2);
+		document.getElementById('break').innerText = `Hourly: ${hourly} / Monthly: ${monthly} / Annually: ${annually}`;
+	}
+	if (multiplier == 12){
+		let hourly = (value / 173.34).toFixed(2);
+		let weekly = (value / 4.333).toFixed(2);
+		let annually = (value * 12).toFixed(2);
+		document.getElementById('break').innerText = `Hourly: ${hourly} / Weekly: ${weekly} / Annually: ${annually}`;
+	}
+	if (multiplier == 1){
+		let hourly = (value / 2080).toFixed(2);
+		let weekly = (value / 52).toFixed(2);
+		let monthly = (value / 12).toFixed(2);
+		document.getElementById('break').innerText = `Hourly: ${hourly} / Weekly: ${weekly} / Monthly: ${monthly}`;
+	}
 }
 
 function calculateDiffPercent(){
 	const current = Number(document.getElementById('current').value);
 	const offered = Number(document.getElementById('offered').value);
 	
-	const difference = (offered-current)/current*100
+	const difference = ((offered-current)/current*100).toFixed(2);
+	if (isFinite(difference)){
+		document.getElementById('diff').innerText = `Difference: ${difference}%`;
+	}
+	else {document.getElementById('diff').innerText = `Please enter a value for Current`;}
 	
-	document.getElementById('diff').innerText = `Difference: ${difference}%`;
 }
 
 //Update result when input are changed
@@ -30,7 +61,6 @@ document.getElementById("health").addEventListener("input", calculateTotal);
 
 document.getElementById("current").addEventListener("input", calculateDiffPercent);
 document.getElementById("offered").addEventListener("input", calculateDiffPercent);
-
 
 ///////////////////////////////////////////////////
 //csv to table
@@ -63,16 +93,15 @@ fetch("salary.csv")
 //filter and display
 ///////////////////////////////////////////////////
 function filter() {
-	var input, filter, table, tr, td, i, txtValue;
-	input = document.getElementById("searchInput");
-	filter = input.value.toUpperCase();
-	table = document.getElementById("salary");
-	tr = table.getElementsByTagName("tr");
+	var input = document.getElementById("searchInput");
+	var filter = input.value.toUpperCase();
+	var table = document.getElementById("salary");
+	var tr = table.getElementsByTagName("tr");
 
-	for (i = 0; i < tr.length; i++) {
-		td = tr[i].getElementsByTagName("td")[1];
+	for (var i = 0; i < tr.length; i++) {
+		var td = tr[i].getElementsByTagName("td")[1];
 		if (td) {
-		txtValue = td.textContent || td.innerText;
+		var txtValue = td.textContent || td.innerText;
 		if (txtValue.toUpperCase().indexOf(filter) > -1) {
 			tr[i].style.display = "";
 		} else {

@@ -28,6 +28,7 @@ body {
     padding: 1%
 }
 
+
 input, select, option{
     color: #000;
     height: 2em;
@@ -67,6 +68,9 @@ table{
 
 @media only screen and (min-width: 815px) {
     /* For desktop: */
+    label{
+        display: inline-block;
+    }
     input, select {
         max-width: 15%;
         display: inline;
