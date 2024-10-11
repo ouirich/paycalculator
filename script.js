@@ -10,9 +10,11 @@ function calculateTotal(){
 	const rrsp = Number(document.getElementById('rrsp').value) || 0;
 	const health = Number(document.getElementById('health').value) || 0;
 	
-	const total = ((value * multiplier) + (value * multiplier/100*vacaypercent) + (value * multiplier/52*vacayweeks) + (value * multiplier/100*rrsp) + health).toFixed(2);
+	let annually = value * multiplier;
+	const total = (annually + (value * multiplier/100*vacaypercent) + (value * multiplier/52*vacayweeks) + (value * multiplier/100*rrsp) + health);
+	const comp = total.toLocaleString('en-US');
 	
-	document.getElementById('result').innerText = `Compensation: ${total}`;
+	document.getElementById('result').innerText = `Compensation: ${comp}`;
 	if (multiplier == 2080){
 		let weekly = (value * 40).toFixed(2);
 		let monthly = (weekly * 4.333).toFixed(2);
@@ -37,6 +39,70 @@ function calculateTotal(){
 		let monthly = (value / 12).toFixed(2);
 		document.getElementById('break').innerText = `Hourly: ${hourly} / Weekly: ${weekly} / Monthly: ${monthly}`;
 	}
+}
+
+function calculateTax(){
+	const value = Number(document.getElementById('value').value);
+	const multiplier = Number(document.getElementById('multiplier').value);
+	const annually = value * multiplier;
+
+	const fedTax = calculateFed(annually);
+	const bcTax = calculateBC(annually);
+	const tax = fedTax+bcTax;
+	const takeHome = annually-tax;
+
+	if (value == "") {
+		document.getElementById('aftertax').innerText = `Please enter a value for Salary`;
+	}
+	else {
+	document.getElementById('aftertax').innerText = `Rough estimate after tax (BC) \n Weekly: ${(takeHome/52).toFixed(2)} / Biweekly: ${(takeHome/26).toFixed(2)} / Monthly: ${(takeHome/12).toFixed(2)} / Annually: ${takeHome.toFixed(2)}`;
+	}
+}
+
+function calculateFed(annually){
+	let tax = 0;
+	if (annually<=55867){
+		tax = annually * 0.15;
+	}
+	else if (annually<=111733){
+		tax = (55867 * 0.15) + (annually-55867) * 0.205;
+	}
+	else if (annually<=173205){
+		tax = (55867 * 0.15) + (111733-55867) * 0.205 + (annually-111733) * 0.26;
+	}
+	else if (annually<=246752){
+		tax = (55867 * 0.15) + (111733-55867) * 0.205 + (246752-111733) * 0.26 + (annually-173205) * 0.29;
+	}
+	else {
+		tax = (55867 * 0.15) + (111733-55867) * 0.205 + (246752-173205) * 0.26 + (246752-173205) * 0.29 + (annually-246752) * 0.33;
+	}
+	return tax;
+}
+
+function calculateBC(annually){
+	let tax = 0;
+	if (annually<=47937){
+		tax = annually * 0.0506;
+	}
+	else if (annually<=95875){
+		tax = (47937 * 0.0506) + (annually-47937) * 0.077;
+	}
+	else if (annually<=110076){
+		tax = (47937 * 0.0506) + (111733-47937) * 0.077 + (annually-95875) * 0.105;
+	}
+	else if (annually<=133664){
+		tax = (47937 * 0.0506) + (111733-47937) * 0.077 + (133664-95875) * 0.105 + (annually-110076) * 0.1229;
+	}
+	else if (annually<=181232){
+		tax = (47937 * 0.0506) + (111733-47937) * 0.077 + (246752-95875) * 0.105 + (181232-110076) * 0.1229 + (annually-133664) * 0.147;
+	}
+	else if (annually<=252752){
+		tax = (47937 * 0.0506) + (111733-47937) * 0.077 + (246752-95875) * 0.105 + (181232-110076) * 0.1229 + (252752-133664) * 0.147 + (annually-181232) * 0.168;
+	}
+	else {
+		tax = (47937 * 0.0506) + (111733-47937) * 0.077 + (246752-95875) * 0.105 + (181232-110076) * 0.1229 + (252752-133664) * 0.147 + (annually-181232) * 0.168 + (annually-252752) * 0.205;
+	}
+	return tax;
 }
 
 function calculateDiffPercent(){

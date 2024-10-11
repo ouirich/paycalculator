@@ -12,6 +12,7 @@ h1{
 
 h2{
     font-size:1.2em;
+    margin-bottom: 0.2em;
 }
   
 hr{
@@ -28,7 +29,6 @@ body {
     padding: 1%
 }
 
-
 input, select, option{
     color: #000;
     height: 2em;
@@ -36,6 +36,22 @@ input, select, option{
 
 input, select {
     width: 100%;
+}
+
+button {
+    background: #757575;
+    color:#fff;
+    border: none;
+    padding: 0.25em;
+}
+button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#break, #aftertax {
+    margin-top: 0px;
 }
 
 .form {

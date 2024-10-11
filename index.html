@@ -11,7 +11,7 @@
 	
     <div id="page" class="center">
 		<h1>Pay Calculator</h1>
-		<form id="multiplyForm">
+		<form>
 			<div class="form">
 				<label for="multiplier">Choose frequency</label>
 				<select id="multiplier">
@@ -44,7 +44,10 @@
 		</form>
 		
 		<h2 id="result">Compensation: 0</h2>
-		<h3 id="break">Breakdown:</h3>
+		<h3 id="break">Breakdown</h3>
+
+		<button onclick="calculateTax()">Calculate Net Pay</button>
+		<p id="aftertax"></h3>
 		
 		<hr>
 		<h1>Salary Comparison</h1>
