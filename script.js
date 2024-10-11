@@ -48,7 +48,9 @@ function calculateTax(){
 
 	const fedTax = calculateFed(annually);
 	const bcTax = calculateBC(annually);
-	const tax = fedTax+bcTax;
+	const EIpremium = 1077.48
+	const CPP = 3867.50
+	const tax = fedTax+bcTax+EIpremium+CPP;
 	const takeHome = annually-tax;
 
 	if (value == "") {
@@ -71,10 +73,10 @@ function calculateFed(annually){
 		tax = (55867 * 0.15) + (111733-55867) * 0.205 + (annually-111733) * 0.26;
 	}
 	else if (annually<=246752){
-		tax = (55867 * 0.15) + (111733-55867) * 0.205 + (246752-111733) * 0.26 + (annually-173205) * 0.29;
+		tax = (55867 * 0.15) + (111733-55867) * 0.205 + (173205-111733) * 0.26 + (annually-173205) * 0.29;
 	}
 	else {
-		tax = (55867 * 0.15) + (111733-55867) * 0.205 + (246752-173205) * 0.26 + (246752-173205) * 0.29 + (annually-246752) * 0.33;
+		tax = (55867 * 0.15) + (111733-55867) * 0.205 + (173205-173205) * 0.26 + (246752-173205) * 0.29 + (annually-246752) * 0.33;
 	}
 	return tax;
 }
@@ -88,19 +90,19 @@ function calculateBC(annually){
 		tax = (47937 * 0.0506) + (annually-47937) * 0.077;
 	}
 	else if (annually<=110076){
-		tax = (47937 * 0.0506) + (111733-47937) * 0.077 + (annually-95875) * 0.105;
+		tax = (47937 * 0.0506) + (95875-47937) * 0.077 + (annually-95875) * 0.105;
 	}
 	else if (annually<=133664){
-		tax = (47937 * 0.0506) + (111733-47937) * 0.077 + (133664-95875) * 0.105 + (annually-110076) * 0.1229;
+		tax = (47937 * 0.0506) + (95875-47937) * 0.077 + (110076-95875) * 0.105 + (annually-110076) * 0.1229;
 	}
 	else if (annually<=181232){
-		tax = (47937 * 0.0506) + (111733-47937) * 0.077 + (246752-95875) * 0.105 + (181232-110076) * 0.1229 + (annually-133664) * 0.147;
+		tax = (47937 * 0.0506) + (95875-47937) * 0.077 + (110076-95875) * 0.105 + (133664-110076) * 0.1229 + (annually-133664) * 0.147;
 	}
 	else if (annually<=252752){
-		tax = (47937 * 0.0506) + (111733-47937) * 0.077 + (246752-95875) * 0.105 + (181232-110076) * 0.1229 + (252752-133664) * 0.147 + (annually-181232) * 0.168;
+		tax = (47937 * 0.0506) + (95875-47937) * 0.077 + (110076-95875) * 0.105 + (133664-110076) * 0.1229 + (181232-133664) * 0.147 + (annually-181232) * 0.168;
 	}
 	else {
-		tax = (47937 * 0.0506) + (111733-47937) * 0.077 + (246752-95875) * 0.105 + (181232-110076) * 0.1229 + (252752-133664) * 0.147 + (annually-181232) * 0.168 + (annually-252752) * 0.205;
+		tax = (47937 * 0.0506) + (95875-47937) * 0.077 + (110076-95875) * 0.105 + (133664-110076) * 0.1229 + (181232-133664) * 0.147 + (252752-181232) * 0.168 + (annually-252752) * 0.205;
 	}
 	return tax;
 }
@@ -125,8 +127,17 @@ document.getElementById("vacayweeks").addEventListener("input", calculateTotal);
 document.getElementById("rrsp").addEventListener("input", calculateTotal);
 document.getElementById("health").addEventListener("input", calculateTotal);
 
+btn=document.getElementById("netpay")
+btn.addEventListener('click', function() {
+	btn.textContent = 'Net Pay';
+	calculateTax();
+});
+document.getElementById("value").addEventListener("input", function(){btn.textContent = 'Calculate Net Pay';});
+document.getElementById("multiplier").addEventListener("input", function(){btn.textContent = 'Calculate Net Pay';});
+
 document.getElementById("current").addEventListener("input", calculateDiffPercent);
 document.getElementById("offered").addEventListener("input", calculateDiffPercent);
+
 
 ///////////////////////////////////////////////////
 //csv to table
