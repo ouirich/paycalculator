@@ -9,34 +9,38 @@ function calculateTotal(){
 	const vacayweeks = Number(document.getElementById('vacayweeks').value) || 0;
 	const rrsp = Number(document.getElementById('rrsp').value) || 0;
 	const health = Number(document.getElementById('health').value) || 0;
+	let union = document.querySelector("#union");
+	if (union.checked) {
+		union = 0.02;
+	} else {union = 0;}
 	
 	let annually = value * multiplier;
-	const total = (annually + (value * multiplier/100*vacaypercent) + (value * multiplier/52*vacayweeks) + (value * multiplier/100*rrsp) + health);
-	const comp = total.toLocaleString('en-US');
+	const total = (annually + (value * multiplier/100*vacaypercent) + (value * multiplier/52*vacayweeks) + (value * multiplier/100*rrsp) + health) - (annually*union);
+	const comp = total.toFixed(2);
 	
 	document.getElementById('result').innerText = `Compensation: ${comp}`;
 	if (multiplier == 2080){
-		let weekly = (value * 40).toFixed(2);
+		let weekly = (value * 40 - value * 40 * union).toFixed(2);
 		let monthly = (weekly * 4.333).toFixed(2);
 		let annually = (weekly * 52).toFixed(2);
 		document.getElementById('break').innerText = `Weekly: ${weekly} / Monthly: ${monthly} / Annually: ${annually}`;
 	}
 	if (multiplier == 52){
-		let hourly = (value / 40).toFixed(2);
-		let monthly = (value * 4.333).toFixed(2);
-		let annually = (value * 52).toFixed(2);
+		let hourly = (value / 40 - value / 40 * union).toFixed(2);
+		let monthly = (hourly * 40 * 4.333).toFixed(2);
+		let annually = (hourly * 8 * 260).toFixed(2);
 		document.getElementById('break').innerText = `Hourly: ${hourly} / Monthly: ${monthly} / Annually: ${annually}`;
 	}
 	if (multiplier == 12){
-		let hourly = (value / 173.34).toFixed(2);
-		let weekly = (value / 4.333).toFixed(2);
-		let annually = (value * 12).toFixed(2);
+		let hourly = (value / 173.34 - value / 173.34 * union).toFixed(2);
+		let weekly = (hourly * 40).toFixed(2);
+		let annually = (hourly * 8 * 12).toFixed(2);
 		document.getElementById('break').innerText = `Hourly: ${hourly} / Weekly: ${weekly} / Annually: ${annually}`;
 	}
 	if (multiplier == 1){
-		let hourly = (value / 2080).toFixed(2);
-		let weekly = (value / 52).toFixed(2);
-		let monthly = (value / 12).toFixed(2);
+		let hourly = (value / 2080 - value / 2080 * union).toFixed(2);
+		let weekly = (hourly * 40).toFixed(2);
+		let monthly = (hourly * 40 * 4.333).toFixed(2);
 		document.getElementById('break').innerText = `Hourly: ${hourly} / Weekly: ${weekly} / Monthly: ${monthly}`;
 	}
 }
@@ -57,7 +61,7 @@ function calculateTax(){
 		document.getElementById('aftertax').innerText = `Please enter a value for Salary`;
 	}
 	else {
-	document.getElementById('aftertax').innerText = `Rough estimate after tax (BC) \n Weekly: ${(takeHome/52).toFixed(2)} / Biweekly: ${(takeHome/26).toFixed(2)} / Monthly: ${(takeHome/12).toFixed(2)} / Annually: ${takeHome.toFixed(2)}`;
+	document.getElementById('aftertax').innerText = `Estimation on after tax pay (BC) \n Weekly: ${(takeHome/52).toFixed(2)} / Biweekly: ${(takeHome/26).toFixed(2)} / Monthly: ${(takeHome/12).toFixed(2)} / Annually: ${takeHome.toFixed(2)}`;
 	}
 }
 
@@ -126,14 +130,15 @@ document.getElementById("vacaypercent").addEventListener("input", calculateTotal
 document.getElementById("vacayweeks").addEventListener("input", calculateTotal);
 document.getElementById("rrsp").addEventListener("input", calculateTotal);
 document.getElementById("health").addEventListener("input", calculateTotal);
+document.getElementById("union").addEventListener("input", calculateTotal);
 
 btn=document.getElementById("netpay")
 btn.addEventListener('click', function() {
 	btn.textContent = 'Net Pay';
 	calculateTax();
 });
-document.getElementById("value").addEventListener("input", function(){btn.textContent = 'Calculate Net Pay';});
-document.getElementById("multiplier").addEventListener("input", function(){btn.textContent = 'Calculate Net Pay';});
+document.getElementById("value").addEventListener("input", function(){btn.textContent = 'Estimate Net Pay';});
+document.getElementById("multiplier").addEventListener("input", function(){btn.textContent = 'Estimate Net Pay';});
 
 document.getElementById("current").addEventListener("input", calculateDiffPercent);
 document.getElementById("offered").addEventListener("input", calculateDiffPercent);

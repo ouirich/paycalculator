@@ -38,6 +38,15 @@ input, select {
     width: 100%;
 }
 
+input[type="checkbox"] {
+    width: 1.1em;
+    height: 1.1em;
+    border: 0.15em solid currentColor;
+    border-radius: 0.15em;
+    margin: 0;
+    transform: translate(0px, .15em);
+}
+
 button {
     background: #757575;
     color:#fff;

@@ -13,7 +13,7 @@
 		<h1>Pay Calculator</h1>
 		<form>
 			<div class="form">
-				<label for="multiplier">Choose frequency</label>
+				<label for="multiplier" title="Based on a 40h working week">Choose frequency</label>
 				<select id="multiplier">
 					<option value="2080">Hourly</option>
 					<option value="52">Weekly</option>
@@ -26,27 +26,31 @@
 				<input type="number" step="0.01" id="value" required>
 			</div>
 			<div class="form">
-			<label for="vacaypercent">Vacation pay (in %)</label>
-			<input type="number" step="0.01" id="vacaypercent" placeholder="4">
+				<label for="vacaypercent">Vacation pay (in %)</label>
+				<input type="number" step="0.01" id="vacaypercent" placeholder="4">
 			</div> 
 			<div class="form">
-			<label for="vacayweeks">Vacation weeks</label>
-			<input type="number" step="1" id="vacayweeks" placeholder="2">
+				<label for="vacayweeks">Vacation weeks</label>
+				<input type="number" step="1" id="vacayweeks" placeholder="2">
 			</div>
 			<div class="form">
-			<label for="rrsp">RRSP matching (in %)</label>
-			<input type="number" step="0.01" id="rrsp" placeholder="5">
+				<label for="rrsp" title="Contribute to employer matching RRSP if you like free money">Matching RRSP (in %)</label>
+				<input type="number" step="0.01" id="rrsp" placeholder="5">
 			</div>
 			<div class="form">
-			<label for="health">Health benefits cost or HSA</label>
-			<input type="number" step="1" id="health" placeholder="">
+				<label for="health" title="Enter a negative value if you pay premium">Health benefits cost or HSA</label>
+				<input type="number" step="1" id="health" placeholder="">
+			</div>
+			<div class="form">
+				<label for="union">Unionized (2% dues)</label>
+				<input type="checkbox" id="union" class="left">
 			</div>
 		</form>
 		
 		<h2 id="result">Compensation: 0</h2>
-		<h3 id="break">Breakdown</h3>
+		<h3 id="break"></h3>
 
-		<button id="netpay">Calculate Net Pay</button>
+		<button id="netpay">Estimate Net Pay</button>
 		<p id="aftertax"></h3>
 		
 		<hr>
