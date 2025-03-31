@@ -1,5 +1,5 @@
 Company,Position,Pay range,Notes,Date
-,"Updated on February 22, 2025",,,
+,"Updated on March 30, 2025",,,
 AC,2D Designer BG/Environment - Short-Term,"52,000 - 67,600",TV,oct 2024
 AC,CG Senior Designer,"72,800 - 83,200",TV,jul 2024
 AC,CG Designer,"49,400 - 72,800",TV,jul 2024
@@ -21,7 +21,7 @@ AC,CG Rigging Artist (2 Month Contract),"59,800 - 83,200",TV,jul 2024
 AC,CG Matte Painter,"62,400 - 93,600",TV,apr 2024
 AC,CG Senior Layout Artist,"88,400 - 98,800",TV,mar 2024
 AC,CG Layout Artist,"52,000 - 83,200",TV,mar 2024
-AC,Lead Animator,"78,000 - 88.400",TV,sept 2024
+AC,Lead Animator,"78,000 - 88,400",TV,sept 2024
 AC,CG Animator (Short Term),"65,000 - 75,400",TV,dec 2024
 AC,CG Lead FX Artist,"91,000 - 106,000",TV,aug 2024
 AC,CG Senior FX Artist,"75,400 - 91,000",TV,apr 2024
@@ -49,9 +49,14 @@ AL,Rigging Artist,"70,000 - 130,000",Feature,apr 2024
 AL,Imaging TD,"69,992 - 86,008",Feature,jul 2024
 BDL,Producer Senior,"135,200 - 166,400",Feature,nov 2023
 BDL,Production Manager,"88,400 - 114,400",Feature,nov 2023
+BDL,Production Manager,"78,000 - 88,400",TV,mar 2025
 BDL,Associate Production Manager,"83,200 - 98,800",Feature,apr 2024
 BDL,Associate Production Manager,"83,200 - 93,600",Feature,jan 2025
 BDL,Production Coordinator,"62,400 - 67,600",Feature,oct 2024
+BDL,CG Supervisor,"114,400 - 130,000",TV,mar 2025
+BDL,Art Director,"114,400 - 130,000",TV,mar 2025
+BDL,Series Director,"130,000 - 145600",TV,mar 2025
+BDL,Storyboard Director,"114,400 - 124,800",TV,mar 2025
 BDL,Modeling Lead,"114,400 - 135,200",Feature,nov 2023
 BDL,Lead Modeler,"93,600 - 104,000",TV,mar 2024
 BDL,Character Modeler Senior,"83,200 - 130,000",Feature,nov 2023
@@ -96,7 +101,26 @@ BDL,Pipeline TD,"85,358 - 85.800",TV,jan 2024
 BDL,System Administrator,"80,000 - 95,000",TV,nov 2024
 BARN,Compositor MID/SR,"72,800 - 124,800",Feature,jan 2024
 COSA,VFX Production Coordinator,"52,000 - 72,800",Feature,sept 2024
+DD,VFX Producer,"120,000 - 195,000",Feature,mar 2025
+DD,Production Coordinator ,"41,600 - 62,400",Feature,mar 2025
+DD,Assets Supervisor,"124,800 - 176,800",Feature,mar 2025
+DD,Model Lead ,"99,840 - 156,000",Feature,mar 2025
+DD,Modeler,"52,000 - 135,200",Feature,mar 2025
+DD,Lookdev Lead ,"99,840 - 156,000",Feature,mar 2025
+DD,Lookdev Artist,"79,040 - 135,200",Feature,mar 2025
+DD,Texture Artist,"52,000 - 135,200",Feature,mar 2025
+DD,Animation Supervisor,"124,800 - 176,800",Feature,mar 2025
+DD,Animator,"79,040 - 124,800",Feature,mar 2025
+DD,Crowd Artist ,"79,040 - 135,200",Feature,mar 2025
 DD,Character FX Artist,"79,040 - 135,200",Feature,jan 2024
+DD,FX Development Artist,"114,400 - 156,000",Feature,mar 2025
+DD,FX Artist,"79,040 - 135,200",Feature,mar 2025
+DD,Lighting Arttist,"79,040 - 135,200",Feature,mar 2025
+DD,Environments Artist,"79,040 - 135,200",Feature,mar 2025
+DD,Compositing Lead,"114,400 - 156,000",Feature,mar 2025
+DD,Compositing Senior,"114,400 - 135,200",Feature,mar 2025
+DD,FX Pipeline Supervisor,"70,000 - 175,000",Feature,mar 2025
+DD,Pipeline TD,"93,600 - 135,200",Feature,mar 2025
 DNEG,Line Producer,"70,000 - 88,000",Feature,nov 2024
 DNEG,Production Supervisor ,"71,600 - 132,000",Feature,aug 2024
 DNEG,Production Coordinator,"52,000 - 78,000",Feature,aug 2024
@@ -112,19 +136,24 @@ DNEG,Creature TD - CFX ,"60,000 - 135,000",Feature ,nov 2024
 DNEG,Creature TD - CFX ,"60,000 - 75,000",Feature,feb 2025
 DNEG,Animator,"92,000 - 138,000",Feature,jul 2024
 DNEG,FX Supervisor,"124,000 - 175,000",Feature,oct 2024
+DNEG,CG FX Technical Supervisor ,"150,000 - 175,000",Feature,feb 2025
 DNEG,Environment Generalist Technical Supervisor,"145,000 - 175,000",Feature,sept 2024
 DNEG,Environment Generalist TD ,"110,000 - 145,000",Feature,nov 2024
 DNEG,"Lead Software Developer, Ziva Realtime","140,000 - 175,000",Feature,nov 2024
+EPIC,Art Director,"212,117 - 311,104 ",Games,mar 2025
 EPIC,Character Concept Outsource Lead,"153,996 - 225,861",Games,dec 2024
 EPIC,Senior Character Concept Artist,"153,996 - 225,861",Games,dec 2024
+EPIC,Concept Artist,"115,700 - 169,69",Games,mar 2025
 EPIC,"Senior Technical Artist, LEGO Fortnite","160,429 - 235,296",Ganes,dec 2024
-ENBS,Senior Lookdev Artist,"90,480 - 116,480",Ads,jan 2025
+EMBS,Senior Lookdev Artist,"90,480 - 116,480",Ads,jan 2025
 EMBS,Animator,"66,560 - 93,600",Ads,oct 2024
 EMBS,FX Artist,"101,920 - 130,000 ",Ads,dec 2024
 EMBS,Senior Lighting Artist,"90,480 - 116,480",Ads,jan 2025
+EMBS,Compositor - Mid,"79,040 - 99,840",Ads,mar 2025
 EMBS,Compositor,"58,240 - 116,480",Ads,dec 2024
 EMBS,Senior DMP Artist,"97,760 - 112,320",Ads,jan 2025
 EMBS,3D Generalist,"66,560 - 104,000",Ads,oct 2024
+EMBS,Pipeline TD,"60,008 - 100,006.40",Ads,feb 2025
 ICN,Post-Production Supervisor (On-Site),"80,000 - 110,000",TV,dec 2024
 ICN,Post-Production Coordinator (On-Site),"60,000 - 65,000",TV,nov 2024
 ICN,CG Art Director,"75,000 - 160,000",TV,nov 2023
@@ -139,6 +168,7 @@ ICN,Senior Animator,"65,000 - 95,000",TV,nov 2023
 ICN,Senior Animator,"70,000 - 85,000",TV,jun 2024
 ICN,Intermediate Animator,"50,000 - 75,000",TV,jan 2024
 ICN,Intermediate Animator,"55,000 - 70,000",TV,jul 2024
+ICN,Intermediate & Senior 2D FX Artist,"60,000 - 80,000",TV,
 ICN,Houdini FX Artist,"45,000 - 95,000",TV,jan 2024
 ICN,Intermediate FX Artist,"67,600 - 75,000",TV,apr 2024
 ICN,Lighting Supervisor (On-Site),"100,000 - 150,000",TV,jan 2024
@@ -148,12 +178,23 @@ ICN,Lighter/Compositor (On-Site),"55,000 - 80,000",TV,nov 2024
 ICN,Houdini Technical Director (TD),"70,000 - 85,000",TV,aug 2024
 ICN,Junior Editor (Full-time Onsite),"50,000",TV,oct 2024
 ICN,Post-Production Assistant Editor (On-Site),"60,000 - 65,000",TV,nov 2024
+IE,VFX Supervisor,"180,000 - 220,000",Feature,mar 2025
 IE,VFX Production Manager ,"91,000 - 106,000",Feature,jul 2024
+IE,VFX Coordinator - Senior,"76,700  - 81,900",Feature,mar 2025
+IE,VFX Coordinator - Mid,"66,300 - 71,500",Feature,mar 2025
 IE,BG Prep Artist - Senior,"80,600 - 91,000",Feature,feb 2025
+IE,Modeler Organic&Hard Surface - Senior ,"106,000 - 124,000",Feature,mar 2025
+IE,Organic Modeler - Mid,"80,600 - 93,600 ",Feature,mar 2025
 IE,Look Development Artist - Lead,"143,000 - 148,000",Feature,nov 2024
+IE,Previs Animator,"93,600 - 109,200",Feature,mar 2025
+IE,Animator - Lead,"136,500 - 140,400",Feature,mar 2025
+IE,Animator - Senior,"105,000 - 122,000",Feature,mar 2025
+IE,Animator - Mid,"78,000 - 93,000",Feature,mar 2025
+IE,CFX TD - Lead,"136,500 - 140,400",Feature,mar 2025
 IE,FX TD - Senior,"111,800 - 123,500",Feature,jan 202
 IE,Compositor - Lead,"135,000 - 140,000",Feature,feb 2025
 IE,Compositor - Senior - Short Term ,"111,800 - 123,500",Feature,sept 2024
+INGE,VFX Supervisor,"114,400 - 145,600",TV,mar 2025
 INGE,Senior Animator,"72,800 - 114,400",TV,jan 2025
 INGE,FX Artist,"66,560 - 87,360",TV,jan 2025
 INGE,CG Lead,"83,200 - 104,000",TV,jan 2025
@@ -163,10 +204,12 @@ INGE,Pipeline TD,"93,600 - 124,800",TV,jan 2025
 ILM,Modeling Supervisor,"137,300 - 175,800",Feature,jul 2024
 ILM,Lead Creature Modeler,"122,400 - 156,800",Feature,jul 2024
 ILM,Senior Creature Modeler,"110,600 - 141,500",Feature,dec 2024
+ILM,Senior Creature Modeler (Facial Model),"110,600 - 141,500",Feature,mar 2025
 ILM,Senior Hard Surface Modeler,"110,600 - 141,500",Feature,feb 2025
 ILM,Texture Supervisor - (Feature Animation & VFX),"140,00 - 179,200",Feature,dec 2024
 ILM,Senior Texture Artist (Feature Animation & VFX),"110,600 - 141,500",Feature,dec 2024
 ILM,Senior Look Development Technical Director,"108,400 - 138,800",Feature,jul 2024
+ILM,Senior Look Development Technical Director,"110,600 - 141,500",Feature,mar 2025
 ILM,Texture Artist,"85,900 - 109,900",Feature,feb 2025
 ILM,Animation Supervisor,"195,000 - 240,000",Feature,dec 2024
 ILM,Senior Previs Animator,"108,400 - 138,800",Feature,jul 2024
@@ -182,6 +225,7 @@ ILM,Senior FX Technical Director,"122,400 - 149,300",Feature,sept 2024
 ILM,FX Technical Director,"96,800 - 118,000",Feature,sept 2025
 ILM,Lighting Supervisor,"137,300 - 175,800",Feature,jul 2024
 ILM,Lead Lighting Technical Director,"122,400 - 156,800",Feature,jul 2024
+ILM,Environment Supervisor for Feature Animation,"156,600 - 200,600",Feature,mar 2025
 ILM,Generalist (Environments) Supervisor,"153,600 - 196,700 ",Feature,jul 2024
 ILM,Senior Generalist (Environments),"108,400 - 138,800",Feature,jul 2024
 ILM,Generalist (Environments),"84,100 - 107,700",Feature,jul 2024
@@ -196,12 +240,17 @@ ILM,Senior Pipeline Technical Director,"124,900 - 159,900",Feature,jan 2025
 ILM,Senior Pipeline Technical Director,"122,400 - 156,800",Feature,sept 2024
 ILM,"Pipeline Technical Director, Level II","108,400 - 138,800",Feature,oct 2024
 ILM,R&D Engineer - 2D/Compositing,"92,800 - 124,400",Feature,dec 2024
-KCK,Consultant/Contractor,"83,200 - 124,800",Feature,sept 2024
+KICKSTART,Consultant/Contractor,"83,200 - 124,800",Feature,sept 2024
+KICKSTART,Line Producer,"104,000 - 114,400",TV,mar 2025
 LUMA,Linux Systems Administrator (Mid to Senior Level),"110,000 - 150,000",Feature,sept 2024
+LUMA,Production Coordinator,"41,600 - 72,800",Feature,mar 2025
+LUMA,CG Supervisor,"185,000 - 230,000",Feature,mar 2025
+LUMA,Asset Artists (Senior Level),"114,400 - 145,600",Feature,mar 2025
 LUMA,Asset Artists (Mid to Senior),"41,600 - 124,800",Feature,aug 2024
 LUMA,Lighting Artist (Mid to Senior),"41,600 - 124,800",Feature,aug 2024
-LUMA,Lighting Artist (Senior Level),"114,400 - 1352,00",Feature,nov 2024
+LUMA,Lighting Artist (Senior Level),"114,400 - 135,200",Feature,nov 2024
 LUMA,Compositor (Mid to Senior),"41,600 - 135,200",Feature,aug 2024
+LUMA,Compositor (Senior Level ),"114,400 - 135,200",Feature,feb 2025
 LUMA,Pipeline TD (Mid Level),"90,000 - 125,000",Feature,jun 2024
 MF,Production Manager,"70,000 - 85,000",TV,nov 2024
 MF,Production Coordinator,"60,000 - 70,000",TV,nov 2024
@@ -226,25 +275,38 @@ MF,Animator,"55,000 - 83,000",TV,nov 2024
 MF,Crowd Artist - 3D,"60,000 - 75,000",TV,oct 2024
 MF,Shot Finaling Artist - 3D ,"50,000 - 65,000",TV,jan 2025
 MF,FX Supervisor - 3D,"100,000 - 124,800",TV,aug 2024
+MF,Senior FX Artist - 3D,"75,000 - 86,000",TV,mar 2025
+MF,FX Artist - 3D,"55,000 - 75,000",TV,mar 2025
 MF,FX Artist - 3D,"60,000 - 85,000",TV,jan 2025
 MF,Lighting Supervisor - 3D,"100,000 - 130,000",TV,dec 2024
 MF,Lighting Lead - 3D,"85,000 - 98,200",TV,dec 2024
 MF,Lighting Artist - 3D,"65,000 - 85,000",TV,jan 2024
+MF,Senior Unreal Lighting Artist,"70,000 - 90,000",TV,mar 2025
+MF,Unreal CG Generalist,"65,000 - 90,000",TV,mar 2025
 MF,Rigging Pipeline Supervisor,"100,000 - 120,000",TV,mar 2024
 NAS,Animator,"80,000 - 160,000",Feature,feb 2025
 NAS,CFX Artist,"80,000 - 160,000",Feature,feb 2025
 NAS,Lighting Artist,"80,000 - 160,000",Feature,feb 2025
+NAS,Pre-Production Technical Director ,"105,000 - 185,000",Feature,mar 2025
+NAS,Core Assets Technical Director,"105,000 - 185,000",Feature,mar 2025
+NAS,Procedural Assets & FX Technical Director,"105,000 - 185,000",Feature,mar 2025
+NAS,Lighting Technical Director,"105,000 - 185,000",Feature,mar 2025
+NAS,Software Engineer - Rendering ,"120,000 - 210,000",Feature,mar 2025
+NAS,Software Engineer - Procedural Geometry & Simulation,"120,000 - 210,000",Feature,mar 2025
+NAS,Software Engineer - Animation & Rigging,"120,000 - 210,000",Feature,mar 2025
 PIXO,Senior Rigger,"105,000 - 125,000",TV,oct 2024
 PIXO,Senior Digital Matte Painter (Contract),"110,000 - 125,000",TV,oct 2024
 SCAN,Editors (Trailer),"50,000 - 80,000",Feature,oct 2024
 SCAN,Archival Video Editor,"50,000 - 80,000",Feature,oct 2024
 SCAN,Backend Services Engineer,"120,000 - 180,000",Feature,oct 2024
 SCAN,VFX Producer,"105,000 - 195,000",Feature,oct 2024
+SCAN,CG Supervisor,"164,000 - 200,000",Feature,marc 2025
 SCAN,Matte Painter,"120,000 - 140,000",Feature,jan 2025
 SCAN,Senior Surfacing/Lookdev Artist,"112,000 - 135,000",Feature,jan 2025
 SCAN,Environment Supervisor,"140,000 - 180,000",Feature,jan 2025
 SCAN,Environment TD,"100,000 - 130,000",Feature,jan 2025
 SCAN,Houdini FX Artist,"135,000 - 165,000",Feature,jan 2025
+SCAN,Compositing Supervisor,"158,000 - 180,000",Feature,mar 2025
 SCAN,Senior Compositor,"100,000 - 130,000",Feature,jan 2025
 SPI,Experience Modeler,"85,670 - 123,000",Feature,nov 2023
 SPI,Modeler (mid),"66,600 - 91,500",Feature,nov 2023
@@ -282,9 +344,10 @@ SPI,Nuke Tools Specialist,"129,000 - 185,250",Feature,may 2024
 SPI,Environment Workflow TD,"104,707 - 134,992",Feature,sept 2024
 SPI,Associaste Technical Director,"54,995 - 75,507",Feature,sept 2024
 TIM,2D Adobe Animate/Flash Animator,"49,400 - 67,600",TV,oct 2024
-TIM,Hand-drawn Harmony Animator - Action Adventure Series ,"49,400 - 67,600",TV,oct 2024
+TIM,Hand-drawn Harmony Animator,"49,400 - 67,600",TV,oct 2024
 WB,"Series Director, CG ","112,320 - 143,000",TV,aug 2024
-WB,"Director, Technology (Software) ","170,000 - 185,000",TV,jun 2024
+WB,"Director, 2D","78,000 - 127,400",TV,mar 2025
+WB,"Producer, 2D","88,400 - 127,400",TV,mar 2025
 WB,Associate Producer CG,"88,400 - 109,200",TV,sept 2024
 WB,Production Supervisor,"67,600 - 89,440",TV,dec 2023
 WB,"Production Supervisor, CG Feature","68,640 - 89,700",Feature,mar 2024
@@ -303,6 +366,7 @@ WB,Senior Previs/Layout Artist - Feature ,"93,600 - 130,000",Feature,nov 2024
 WB,"Senior Animator, CG ","52,000 - 78,000",TV,jan 2024
 WB,Crowd Supervisor ,"109,980 - 149,968",TV,apr 2024
 WB,Head of FX,"160,000 - 175,000",TV,mar 2024
+WB,"Senior FX Artist, CG (Unreal) ","54,600 - 96,200",TV,mar 2025
 WB,"Lighting Supervisor, CG ","78,000 - 119,600",TV,apr 2024
 WB,"Lighting/Compositing Supervisor, CG (Unreal) ","75,400 - 119,600",TV,dec 2023
 WB,Lead Lighter/Compositor ,"78,000 - 119,600",TV,aug 2024
@@ -310,13 +374,16 @@ WB,"Lead Lighter/Compositor, CG (Unreal) ","75,400 - 119,600",TV,dec 2023
 WB,"Senior Lighter/Compositor, CG (Unreal) ","54,600 - 88,400",TV,dec 2023
 WB,"Lighter/Compositor, CG (Unreal) ","54,600 - 88,400",TV,dec 2023
 WB,Compositing Supervisor - Feature,"144,977 - 160,004",Feature,jan 2025
+WB,"Director, Technology (Software) ","170,000 - 185,000",TV,jun 2024
 WB,Lead Pipeline TD-Houdini,"119,600 - 158,600",TV,dec 2024
 WB,Senior Pipeline TD-Houdini,"80,600 - 154,960",TV,oct 2024
 WB,CFX TD,"78,000 - 117,000",TV,may 2024
 WB,FX TD,"78,000 - 117,000",TV,may 2024
 WB,Groom TD,"78,000 - 117,000",TV,may 2024
 WB,Pipeline TD-Maya ,"78,000 - 117,000",TV,oct 2024
+WV,Lead Pipeline TD-2D ,"119,600 - 158,600",TV,mar 2025
 WETA,Layout Environment TD,"89,440 - 110,240",Feature,oct 2024
+WETA,FX TD,"104,000 - 124,800",Feature,mar 2025
 WDAS,CG Supervisor,"180,000 - 215,000",Feature,nov 2023
 WDAS,Environment Modeler,"87,210 - 112,260",Feature,nov 2023
 WDAS,Environment Modeler,"76,500 - 99,000",TV,sept 2024
@@ -366,3 +433,4 @@ ZS,Senior Compositor,"93,600 - 135,200",Feature,aug 2024
 ZS,Nuke Pipeline Developer,"93,600 - 135,200",Feature,sept 2024
 ZS,Senior Render Pipeline Technical Director,"83,200 - 114,400",Feature,oct 2024
 ZS,Senior Houdini Groom/CFX TD,"104,000 - 135,20",Feature,oct 2024
+ZS,FX Pipeline Technical Director (TD) ,"93,600 - 135,200",Feature,mar 2025
