@@ -176,19 +176,27 @@ fetch("salary.csv")
 ///////////////////////////////////////////////////
 function filter() {
 	var input = document.getElementById("searchInput");
-	var filter = input.value.toUpperCase();
+	var filter = input.value.toUpperCase().trim();
+	var searchTerms = filter.split(/\s+/); // Split input into individual words
+
 	var table = document.getElementById("salary");
 	var tr = table.getElementsByTagName("tr");
 
 	for (var i = 0; i < tr.length; i++) {
-		var td = tr[i].getElementsByTagName("td")[1];
-		if (td) {
-		var txtValue = td.textContent || td.innerText;
-		if (txtValue.toUpperCase().indexOf(filter) > -1) {
-			tr[i].style.display = "";
-		} else {
-			tr[i].style.display = "none";
+		var tds = tr[i].getElementsByTagName("td");
+
+		if (tds.length > 0) {
+			var rowText = "";
+			for (var j = 0; j < tds.length; j++) {
+				rowText += tds[j].textContent.toUpperCase() + " ";
+			}
+
+			// Check if all search terms exist in the row text
+			var matchesAll = searchTerms.every(function(term) {
+				return rowText.indexOf(term) > -1;
+			});
+
+			tr[i].style.display = matchesAll ? "" : "none";
 		}
-		}       
 	}
 }
